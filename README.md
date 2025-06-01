@@ -16,8 +16,8 @@ Resolução de questões do LeetCode (2 difíceis e 2 médias) pelos integrantes
 
 |Questão | Dificuldade |
 | -- | -- |
-| [871](https://leetcode.com/problems/minimum-number-of-refueling-stops/description/) |   Difícil |
-| [2406](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description/)  |  Média |
+| [871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/description/) |   Difícil |
+| [2406. Divide Intervals Into Minimum Numbers of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description/)  |  Média |
 
 ## Screenshots
 
