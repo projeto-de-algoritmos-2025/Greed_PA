@@ -10,7 +10,7 @@
 | 21/1039671  |  Pedro Lopes da Cunha |
 
 ## Sobre 
-Resolução de questões do LeetCode (2 difíceis e uma média) pelos integrantes do grupo com o objetivo de demonstrar o conhecimento adquirido nesse módulo (Greed) da disciplina.
+Resolução de questões do LeetCode (2 difíceis e 2 médias) pelos integrantes do grupo com o objetivo de demonstrar o conhecimento adquirido nesse módulo (Greed) da disciplina.
 
 ## Questões
 
