@@ -42,6 +42,11 @@ A tarefa é escolher uma sequência de cursos (possivelmente reorganizando a ord
 
 ![Print da Resolução 630](/assets/630.jpg)
 
+### [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/description/) - Média:
+
+O problema pede para você encontrar o menor número de saltos necessários para ir do início de um array (índice 0) até o final do array (índice n-1). Em vez de tentar todas as possibilidade, o algoritmo sempre escolhe o melhor alcance no momento atual, confiando que essa escolha levará ao mínimo de pulos no final.
+
+![Print da Resolução 45](/assets/45.jpg)
 
 ## Instalação 
 **Linguagem**: Python<br>
