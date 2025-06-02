@@ -19,7 +19,7 @@ Resolução de questões do LeetCode (2 difíceis e 2 médias) pelos integrantes
 | [871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/description/) |   Difícil |
 | [2406. Divide Intervals Into Minimum Numbers of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description/)  |  Média |
 | [630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/description/)  | Dificil|
-
+| [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)  | Médio|
 ## Screenshots
 
 ### [871](https://leetcode.com/problems/minimum-number-of-refueling-stops/description/) - Difícil:
