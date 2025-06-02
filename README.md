@@ -48,6 +48,13 @@ O problema pede para você encontrar o menor número de saltos necessários para
 
 ![Print da Resolução 45](/assets/45.jpg)
 
+## Video de explicação
+
+https://github.com/user-attachments/assets/22bfec19-d6be-47ab-aaba-2a418677683d
+
+
+
+
 ## Instalação 
 **Linguagem**: Python<br>
 
