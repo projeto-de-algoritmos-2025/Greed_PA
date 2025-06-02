@@ -18,6 +18,7 @@ Resolução de questões do LeetCode (2 difíceis e 2 médias) pelos integrantes
 | -- | -- |
 | [871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/description/) |   Difícil |
 | [2406. Divide Intervals Into Minimum Numbers of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description/)  |  Média |
+| [630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/description/)  | Dificil|
 
 ## Screenshots
 
@@ -33,6 +34,11 @@ O problema pede o número mínimo de paradas para um carro chegar ao destino, po
 O problema pede para dividir uma lista de intervalos em grupos, de forma que dentro de cada grupo nenhum intervalo se sobreponha e que o número total de grupos seja o menor possível. Para resolver, utilizei o algoritmo de Interval Partitioning, que começa ordenando os intervalos pelo início e usa uma heap mínima para gerenciar os intervalos ativos. Percorri cada intervalo na ordem de início e, sempre que possível, removi da heap o intervalo que já terminou antes de começar o atual, pois eles não se sobrepõem. Em seguida, adicionei o final do intervalo atual à heap para indicar que agora faz parte de um grupo em andamento. O tamanho final da heap representa o número mínimo de grupos necessários para acomodar todos os intervalos sem sobreposição.
 
 ![Print da Resolução 871](/assets/2406.png)
+
+### [630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/description/) - Difícil:
+
+Dado um conjunto de cursos, cada um com uma duração e um prazo final (lastDay), o objetivo é determinar quantos cursos no máximo é possível fazer. Você começa no dia 1 e não pode fazer dois cursos ao mesmo tempo.
+A tarefa é escolher uma sequência de cursos (possivelmente reorganizando a ordem original) para maximizar o número de cursos completados sem ultrapassar os prazos de nenhum. Na solução que encontrei utilizei uma abordagem gananciosa com heap (fila de prioridade). Dessa forma, ordenei os cursos por lastDay(prazo mais próximo), percorri os cursos na ordem ordenada, verifiquei se o tempo total ultrapassou o prazo e por fim o resultado é a quantidade de cursos que foram mantidos no cronograma.
 
 
 ## Instalação 
