@@ -40,6 +40,8 @@ O problema pede para dividir uma lista de intervalos em grupos, de forma que den
 Dado um conjunto de cursos, cada um com uma duração e um prazo final (lastDay), o objetivo é determinar quantos cursos no máximo é possível fazer. Você começa no dia 1 e não pode fazer dois cursos ao mesmo tempo.
 A tarefa é escolher uma sequência de cursos (possivelmente reorganizando a ordem original) para maximizar o número de cursos completados sem ultrapassar os prazos de nenhum. Na solução que encontrei utilizei uma abordagem gananciosa com heap (fila de prioridade). Dessa forma, ordenei os cursos por lastDay(prazo mais próximo), percorri os cursos na ordem ordenada, verifiquei se o tempo total ultrapassou o prazo e por fim o resultado é a quantidade de cursos que foram mantidos no cronograma.
 
+![Print da Resolução 630](/assets/630.jpg)
+
 
 ## Instalação 
 **Linguagem**: Python<br>
